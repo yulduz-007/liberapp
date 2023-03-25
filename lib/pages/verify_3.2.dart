@@ -127,6 +127,7 @@ class _VerifyState extends State<Verify> {
               child: TextField(
                 decoration: InputDecoration(
                   hintText: " _____   _____   _____   _____ ",
+                   border: InputBorder.none,
                   labelStyle: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
